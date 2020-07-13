@@ -1,93 +1,60 @@
-<DOCTYPE! html>
-    <html>
-        <head>
-            <title>Online Dating Survey</title>
-            <link rel="stylesheet" type="text/css" href="project2.css">
-        </head>
-        <body>
-            <h1> ONLINE DATING SURVEY FORM</h1>
-            <form>
-                <label for="name"> Name: 
-                    <input style="background-color: linear-gradient(to right, #B085D6 #C144AA #5E2163);" type="text" id="name" name="name" placeholder="Name" >
-                </label>
-               
-                <legend id="orientation"> Sexual Orientation </legend>
-                <div id="sexes">
-                    <input type="radio" id="hetero" name="sexes" value="hetero">  
-                        <label for="hetero">Heterosexual</label> 
-                    <input type="radio" id="homo" name="sexes" value="homo">
-                        <label for="homo"> Homosexual</label>
-                    <input type="radio" id="bisexual" name="sexes" value="bisexual">
-                        <label for="bisexual"> Bisexual </label>
-                    <input type="radio" id="other" name="sexes" value="other">  
-                        <label for="other"> Other </label>
-                </div>
-                <label for="age"> Age </label>
-                  <input type="number" name="age" id="number" type="range" 
-                    min="18" max="90" placeholder="Number" required>
-                
-                <legend id="believe"> Do you believe in dating sites?</legend>
-                <div id="do_you">
-                    <input type="radio" name="do_you" value="yes">
-                        <label for="yes"> Yes</label>
-                    <input type="radio" name="do_you" value="no">
-                        <label for="no"> No</label>
-                </div>
-                <legend id="website"> Which site do you use most often?</legend>
-                <div id="sites">
-                    <input type="radio" name="sites" value="twitter">
-                        <label for="twitter"> Twitter</label>
-                    <input type="radio" name="sites" value="Instagram">
-                        <label for="Instagran"> Instagram </label>
-                    <input type="radio" name="sites" value="Tinder">
-                        <label for="Tinder"> Tinder </label>
-                    <input type="radio" name="sites" value="facebook">
-                        <label for="Facebook"> Facebook </label>
-                    <input type="radio" name="sites" value="other">
-                         <label for="other">Other</label>
-                </div>
-                <label id="time"> How much time you spend on dating sites?</label>
-                    <select id="time">
-                        <option value="1-2hours">1-2 hours</option>
-                        <option value="2-4hours">2-4 hours</option>
-                        <option value="4-6hours">4-6 hours</option>
-                        <option value="more_than_6_hours">> 6 hours</option>
-                    </select>
-                <label> Which of these irks you?</label>
-                <div id="type">
-                    <input type="checkbox" name="type" value="playful">
-                        <label for="playful"> Playful </label>
-                    <input type="checkbox" name="type" value="fanatic">
-                        <label for="fanatic"> Fanatic </label>
-                    <input type="checkbox" name="type" value="Casual_sex">
-                        <label for="casual_sex"> Casual Sex</label>
-                    <input type="checkbox" name="type" value="workacholic">
-                        <label for="workacholic"> Workacholic</label>
-                    <input type="checkbox" name="type" value="unemployed">
-                        <label for="unemployed"> Unemployed </label>
-                    <input type="checkbox" name="type" value="racist">
-                        <label for="racist"> Racist</label>
-                    <input type="checkbox" name="type" value="lazy">
-                        <label for="lazy"> Lazy </label>
-                    <input type="checkbox" name="type" value="misogynist">
-                        <label for="misogynist"> Misogynist </label>
-                </div>
-                <label> How many dating sites do you use?</label>
-                <div id="many">
-                    <input type="radio" name="many" value="1">
-                        <label for="1"> 1</label>
-                    <input type="radio" name="many" value="2-5">
-                        <label for="2-5">2-5</label>
-                    <input type="radio" name="many" value=">_5">
-                        <label for=">_5"> > 5</label>
-                </div>
-                <label>Extra comments?</label>
-                <textarea id="extra" name="extra" rows="3" cols="30"></textarea>
-                <label> Email</label>
-                <input type="text" name="emails" placeholder="enter email" required>
-                <section class="submission">
-                    <input type="submit" value="submit">
-                </section>
-            </form>
-        </body>
-    </html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Mfon's Portfolio</title>
+	<link rel="stylesheet" href="portfolio.css" type="text/css" media="all"/>
+</head>
+<body>
+<nav id="navbar">
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#Social_Media">Social</a>
+</nav>
+
+<header id="about">
+  <div id="welcome-section">
+  <h1> Hello!😃</h1>
+    <p> My name is Mfon Nta </p>
+  <p> and I am a Web Developer </p>
+  </div>
+</header>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-container">
+  <div class="project">
+   <a href="https://codepen.io/mfonnie/pen/MWaNJZP"> <img src="https://images.unsplash.com/photo-1518384401463-d3876163c195?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="online survey"></a>
+    <p>online Survey project</p>
+  </div>
+    <div class="project">
+   <a href="https://codepen.io/mfonnie/pen/dyYEmLv"> <img src="https://images.unsplash.com/photo-1549814892-f6a520afc97d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="tribute page"></a>
+    <p>Tribute Page</p>
+  </div>
+  <div class="project">
+   <a href="https://codepen.io/mfonnie/pen/XWXrVEv"> <img src="https://images.unsplash.com/photo-1577561776790-1a20c419b1a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Technical documentation"></a>
+    <p>Technical Documentation page</p>
+  </div>
+  <div class="project">
+   <a href="https://codepen.io/mfonnie/pen/BajBJGx"> <img src="https://images.unsplash.com/photo-1523131334934-166f1a2ba72f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="product landing page"></a>
+    <p>Product Landing Page</p>
+  </div>
+  </div>
+</section>
+
+<section id="Social_Media" class="bg-pinkish">
+  <h2>Social Media</h2>
+  <p> You can reach me on</p>
+  <ul class="social-ul">
+    <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a><li>
+    <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a><li>
+    <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a><li>
+    <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a><li>
+    <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a><li>
+  </ul>
+</section>
+
+<footer>
+  Made with <i class="fas fa-heart"></i> by Mfon Nta  </footer>
+
+</body>
+</html>
